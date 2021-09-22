@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Outil d’évaluation – Portée de la gestion du changement : Résultats</title>
+<style>
+.signature, .title { 
+float:left;
+  border-top: 1px solid #000;
+  width: 200px; 
+  text-align: center;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+</style>
+<script type="text/javascript">
+
+	function getAllUrlParams(url) {
+  // get query string from url (optional) or window
+  var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+  // we'll store the parameters here
+  var obj = {};
+  // if query string exists
+  if (queryString) {
+    // stuff after # is not part of query string, so get rid of it
+    queryString = queryString.split('#')[0];
+    // split our query string into its component parts
+    var arr = queryString.split('&');
+    for (var i = 0; i < arr.length; i++) {
+      // separate the keys and the values
+      var a = arr[i].split('=');
+      // set parameter name and value (use 'true' if empty)
+      var paramName = a[0];
+      var paramValue = typeof (a[1]) === 'undefined' ? true : a[1];
+      // (optional) keep case consistent
+      // paramName = paramName.toLowerCase();
+      //if (typeof paramValue === 'string') paramValue = paramValue.toLowerCase();
+      // if the paramName ends with square brackets, e.g. colors[] or colors[2]
+      if (paramName.match(/\[(\d+)?\]$/)) {
+        // create key if it doesn't exist
+        var key = paramName.replace(/\[(\d+)?\]/, '');
+        if (!obj[key]) obj[key] = [];
+        // if it's an indexed array e.g. colors[2]
+        if (paramName.match(/\[\d+\]$/)) {
+          // get the index value and add the entry at the appropriate position
+          var index = /\[(\d+)\]/.exec(paramName)[1];
+          obj[key][index] = paramValue;
+        } else {
+          // otherwise add the value to the end of the array
+          obj[key].push(paramValue);
+        }
+      } else {
+        // we're dealing with a string
+        if (!obj[paramName]) {
+          // if it doesn't exist, create property
+          obj[paramName] = paramValue;
+        } else if (obj[paramName] && typeof obj[paramName] === 'string'){
+          // if property does exist and it's a string, convert it to an array
+          obj[paramName] = [obj[paramName]];
+          obj[paramName].push(paramValue);
+        } else {
+          // otherwise add the property
+          obj[paramName].push(paramValue);
+        }
+      }
+    }
+  }
+
+  return obj;
+}
+//define variables
+var userName = getAllUrlParams().uname;
+var projectName = getAllUrlParams().pname;
+var position = getAllUrlParams().pos;
+var Q1Full = getAllUrlParams().q1;
+var Q2Full = getAllUrlParams().q2;
+var Q3Full = getAllUrlParams().q3;
+var Q4Full = getAllUrlParams().q4;
+var Q5Full = getAllUrlParams().q5;
+var Q6Full = getAllUrlParams().q6;
+var Q7Full = getAllUrlParams().q7;
+var Q8Full = getAllUrlParams().q8;
+var Q9Full = getAllUrlParams().q9;
+var Q10Full = getAllUrlParams().q10;
+
+
+var posFile = position + '.jpg';
+
+
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+
+</script>
+</head>
+
+<body>
+
+<div style="text-align:left;padding-top: 15px;"><img src="Nav_Canada.svg" width="100px"></div>	
+
+
+<h1>Outil d’évaluation – Portée de la gestion du changement : Résultats</h1>
+<b>Nom : </b><script type="text/javascript">document.write(unescape(userName))</script><br>
+<b>Nom du projet : </b><script type="text/javascript">document.write(unescape(projectName))</script><br>
+<b>Date: </b><script type="text/javascript">document.write(unescape(today))</script><br>
+<h2>Étape 1 : Quelle est la portée du projet?</h2>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tr>
+<th width="75%" style="padding:5px">Question</th>
+<th width="25%" style="padding:5px">Niveau de portée<br>(1 à 4)</td>
+</tr>
+
+<tbody>
+<tr>
+<td style="padding:5px">
+<b>1. Secteurs touchés par le changement :</b><br>
+Combien de secteurs de l’organisation seront principalement touchés par ce changement?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q1Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>2. Nombre d’employés touchés par le changement :</b><br>
+Combien d’employés seront principalement touchés par ce changement?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q2Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>3. Incidence sur les processus d’affaires :</b><br>
+Cela entraînera-t-il des changements dans les processus d’affaires?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q3Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>4. Incidence sur les rôles et les responsabilités :</b><br>
+Cela impliquera-t-il des changements dans les rôles ou les responsabilités des employés (qui fait quoi) ou dans les relations hiérarchiques?  
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q4Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>5. Incidence sur les technologies et les outils :</b><br>
+Y aura-t-il des changements dans les technologies (p. ex. les systèmes) ou les outils utilisés (p. ex. les formulaires, les listes de vérification)?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q5Full))</script>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<p style="page-break-before: always">
+
+<h2>Étape 2 : Quels sont certains des risques liés au changement associés au projet?</h2>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tr>
+<th width="75%" style="padding:5px">Question</th>
+<th width="25%" style="padding:5px">Niveau de risque<br>(1 à 4)</td>
+</tr>
+<tbody>
+<tr>
+<td style="padding:5px">
+<b>1. Justification pour le changement</b><br>
+Les objectifs du projet sont-ils clairement définis?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q6Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>2. Vision partagée</b><br>
+Les chefs du projet partagent-ils une vision commune de l’état futur?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q7Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>3. Capacité de changement</b><br>
+Quelle est la capacité d’assimilation du changement des secteurs les plus touchés par le projet?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q8Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>4. Leadership en matière de changement</b><br>
+Les cadres supérieurs sont-ils prêts, disposés et aptes à assumer le rôle de leadership ou de parrainage en matière de changement et à se prononcer en faveur du changement?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q9Full))</script>
+</td>
+</tr>
+<tr>
+<td style="padding:5px">
+<b>5. Ampleur du changement requis dans la mentalité ou la façon de faire les choses</b><br>
+Les employés devront-ils faire les choses d’une manière très différente?
+</td>
+<td style="padding:5px"><script type="text/javascript">document.write(unescape(Q10Full))</script>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2>Résultat global et recommandations</h2>
+<p>Sur la base des réponses fournies précédemment, le projet donnera lieu à : <b>Changements de niveau 2</b>.</p>
+<h3>Prochaines étapes :</h3>
+<ol>
+<li>Sélectionnez « Imprimer les résultats » pour imprimer la présente page et sauvegardez-la dans votre ordinateur en format PDF.</li>
+<li>Communiquez avec l’équipe Gestion du changement (<a href="mailto:SM_Change_Practice@navcanada.ca">SM_Change_Practice@navcanada.ca</a>) pour demander la tenue d’une rencontre. Joignez le document PDF contenant vos résultats.</li>
+</ol>
+<p></p>
+<button type="button" onclick="window.print();return false;">Imprimer les résultats</button>
+
+
+</body>
+</html>
