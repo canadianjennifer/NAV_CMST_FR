@@ -15,7 +15,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Change Assessment v9 FR" />
+              <option name="title_text" value="Change Assessment v9a FR" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1567,11 +1567,11 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Nav_Canada.svg" image="story_content/5s2WJcCQzgQ.png" title="Nav_Canada" />
-      <resource url="story_content/external_files/minimal_FR.html" image="story_content/6KlP3YUxa1O.png" title="minimal_FR" />
-      <resource url="story_content/external_files/level1_FR.html" image="story_content/66fnAG30sUg.png" title="level1_FR" />
-      <resource url="story_content/external_files/level2_FR.html" image="story_content/6r7j9yLKKar.png" title="level2_FR" />
-      <resource url="story_content/external_files/level3_FR.html" image="story_content/5a2B3caOHcs.png" title="level3_FR" />
+      <resource url="story_content/external_files/Nav_Canada.svg" image="story_content/5zHtft2dacs.png" title="Nav_Canada" />
+      <resource url="story_content/external_files/minimal_FR.html" image="story_content/5tBgbnuth7B.png" title="minimal_FR" />
+      <resource url="story_content/external_files/level1_FR.html" image="story_content/6lkKtNL8pRr.png" title="level1_FR" />
+      <resource url="story_content/external_files/level2_FR.html" image="story_content/6nFk0rjXW5z.png" title="level2_FR" />
+      <resource url="story_content/external_files/level3_FR.html" image="story_content/6BFAkQK74nR.png" title="level3_FR" />
     </resources>
   </resource_data>
   <transcript_data />
