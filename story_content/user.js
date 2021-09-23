@@ -2,19 +2,19 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6Sjactk8JqX":
+      case "6EZ236K8EAt":
         Script1();
         break;
-      case "6bDHPbG27vP":
+      case "5p1wrT4v0RH":
         Script2();
         break;
-      case "6bEAmnpX3KS":
+      case "6NdU8EQq6rY":
         Script3();
         break;
-      case "5s9W1YxmG7X":
+      case "6RWAM33jSNW":
         Script4();
         break;
-      case "5YzJCYKSOq3":
+      case "6SSCvZpP8bD":
         Script5();
         break;
   }
@@ -26,40 +26,40 @@ function Script1()
 
 var userName = player.GetVar('userName');
 var projectName = player.GetVar('projectName');
-var Q1Full = player.GetVar('Q1Full');
-var Q2Full = player.GetVar('Q2Full');
-var Q3Full = player.GetVar('Q3Full');
-var Q4Full = player.GetVar('Q4Full');
-var Q5Full = player.GetVar('Q5Full');
-var QPart1Total = player.GetVar('Part1Total');
-var Q6Full = player.GetVar('Q6Full');
-var Q7Full = player.GetVar('Q7Full');
-var Q8Full = player.GetVar('Q8Full');
-var Q9Full = player.GetVar('Q9Full');
-var Q10Full = player.GetVar('Q10Full');
+var Q1 = player.GetVar('Q1');
+var Q2 = player.GetVar('Q2');
+var Q3 = player.GetVar('Q3');
+var Q4 = player.GetVar('Q4');
+var Q5 = player.GetVar('Q5');
+var Part1Total = player.GetVar('Part1Total');
+var Q6 = player.GetVar('Q6');
+var Q7 = player.GetVar('Q7');
+var Q8 = player.GetVar('Q8');
+var Q9 = player.GetVar('Q9');
+var Q10 = player.GetVar('Q10');
 var Part2Total = player.GetVar('Part2Total');
 var OverallChangeRequired = player.GetVar('OverallChangeRequired');
 
 var formData = new FormData();
 formData.append('userName', userName);
 formData.append('projectName', projectName);
-formData.append('Q1Full', Q1Full);
-formData.append('Q2Full', Q2Full);
-formData.append('Q3Full', Q3Full);
-formData.append('Q4Full', Q4Full);
-formData.append('Q5Full', Q5Full);
+formData.append('Q1', Q1);
+formData.append('Q2', Q2);
+formData.append('Q3', Q3);
+formData.append('Q4', Q4);
+formData.append('Q5', Q5);
 formData.append('Part1Total', Part1Total);
-formData.append('Q6Full', Q6Full);
-formData.append('Q7Full', Q7Full);
-formData.append('Q8Full', Q8Full);
-formData.append('Q9Full', Q9Full);
-formData.append('Q10Full', Q10Full);
+formData.append('Q6', Q6);
+formData.append('Q7', Q7);
+formData.append('Q8', Q8);
+formData.append('Q9', Q9);
+formData.append('Q10', Q10);
 formData.append('Part2Total', Part2Total);
 formData.append('OverallChangeRequired', OverallChangeRequired);
 
 
 var request = new XMLHttpRequest();
-request.open('POST', 'https://script.google.com/macros/s/AKfycbx1CduDGa92UgJCUak3kwPk2ri-avlHkg5is-eNqOSuLZovXvtl4A9qI8V2StT22czxcQ/exec');
+request.open('POST', 'https://script.google.com/macros/s/AKfycbxW59x9jqF7ZxRuOAMahiXBPTOwI1NnBFENemM8hZssQ41p-pRxmu8GfZhWEBYAU2ZS2w/exec');
 request.send(formData);
 }
 
