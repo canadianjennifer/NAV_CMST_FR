@@ -15,7 +15,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Change Assessment v10 FR" />
+              <option name="title_text" value="Change Assessment v11 FR" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1435,10 +1435,34 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="three_image_progress_audio">progrès</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">caméra déplacée vers le bas</string>
+      <string id="three_image_camera_left">caméra déplacée vers la gauche</string>
+      <string id="three_image_camera_right">caméra déplacée vers la droite</string>
+      <string id="three_image_camera_up">caméra déplacée vers le haut</string>
+      <string id="three_image_interaction_free">mode exploration libre</string>
+      <string id="three_image_interaction_guided">mode visite guidée</string>
+      <string id="three_image_hotspot">zone réactive</string>
+      <string id="three_image_instructions">Utilisez vos touches fléchées pour vous déplacer dans l'image à 360 degrés. Appuyez sur la touche de tabulation pour accéder aux marqueurs interactifs et aux zones réactives.</string>
+      <string id="three_image_interaction">Interaction d'images à 360 degrés</string>
+      <string id="three_image_label">étiqueter</string>
+      <string id="three_image_marker">marqueur</string>
       <string id="three_image_items">articles</string>
-      <string id="three_image_viewed">vu</string>
+      <string id="three_image_interaction_next">suivant</string>
+      <string id="three_image_pause_audio">arrêter l'audio</string>
+      <string id="three_image_pause_video">arrêter la vidéo</string>
+      <string id="three_image_play_audio">lire l'audio</string>
+      <string id="three_image_play_video">lire la vidéo</string>
+      <string id="three_image_interaction_prev">précédent</string>
+      <string id="three_image_visited">visité</string>
       <string id="three_image_of">de</string>
       <string id="three_image_item">article</string>
+      <string id="three_image_interaction_step">étape</string>
+      <string id="three_image_progress_video">progrès</string>
+      <string id="three_image_video">vidéo</string>
+      <string id="three_image_video_volume">volume de la vidéo</string>
+      <string id="three_image_view_image">Voir l'image</string>
       <string id="accessible_text">Texte accessible</string>
       <string id="keyboardshortcuts_lower">Raccourcis clavier</string>
       <string id="zoom_to_fit">Zoomer pour adapter</string>
@@ -1462,6 +1486,8 @@
       <string id="acc_definition">définition</string>
       <string id="glossary">Glossaire</string>
       <string id="terms">Termes</string>
+      <string id="progress_hour">heure</string>
+      <string id="progress_hours">heures</string>
       <string id="action">Action</string>
       <string id="keyboardshortcuts">Raccourcis clavier</string>
       <string id="shortcuthelp">Liste des raccourcis clavier</string>
@@ -1477,6 +1503,8 @@
       <string id="togglezoom">Activer/désactiver le zoom pour ajuster</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Faites pivoter votre appareil</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
       <string id="mute_tip">Muet</string>
       <string id="next">SUIVANT</string>
       <string id="acc_next">suivant</string>
@@ -1512,6 +1540,8 @@
       <string id="search">Rechercher...</string>
       <string id="search_in">Rechercher dans :</string>
       <string id="search_results">Rechercher les résultats</string>
+      <string id="progress_second">seconde</string>
+      <string id="progress_seconds">secondes</string>
       <string id="settings_tip">Paramètres</string>
       <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Retour en haut</string>
@@ -1540,7 +1570,8 @@
       <links>
         <slidelink slideid="_player.6VacOa0CEBX" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6VacOa0CEBX.6NS8WseNMUy" displaytext="Title Page" expand="false" type="slide" />
+            <slidelink slideid="_player.6VacOa0CEBX.6NS8WseNMUy" displaytext="Page titre" expand="false" type="slide" />
+            <slidelink slideid="_player.6VacOa0CEBX.5sZptrPTleB" displaytext="Alerte" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.6OXw9VbWEwC" displaytext="Question 1" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.63ibrc3r2TY" displaytext="Question 2" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.63D2AH1C1nl" displaytext="Question 3" expand="false" type="slide" />
@@ -1551,9 +1582,9 @@
             <slidelink slideid="_player.6VacOa0CEBX.6fVSv1rs34H" displaytext="Question 8" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.6l1YidWpJXW" displaytext="Question 9" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.5uRMZxuGvO3" displaytext="Question 10" expand="false" type="slide" />
-            <slidelink slideid="_player.6VacOa0CEBX.6GlwgP7bN6k" displaytext="Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6VacOa0CEBX.6GlwgP7bN6k" displaytext="Aperçu" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.5cYKd86sw1c" displaytext="Section 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6VacOa0CEBX.5tmQRjZQpxv" displaytext="Your information" expand="false" type="slide" />
+            <slidelink slideid="_player.6VacOa0CEBX.5tmQRjZQpxv" displaytext="Vos renseignements" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.5wqZOk5xDvP" displaytext="Section 2" expand="false" type="slide" />
           </links>
         </slidelink>
@@ -1567,11 +1598,11 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Nav_Canada.svg" image="story_content/5zeltgy83OX.png" title="Nav_Canada" />
-      <resource url="story_content/external_files/minimal_FR.html" image="story_content/6q06GgSamwY.png" title="minimal_FR" />
-      <resource url="story_content/external_files/level1_FR.html" image="story_content/5oFZbAsv2gH.png" title="level1_FR" />
-      <resource url="story_content/external_files/level2_FR.html" image="story_content/6CeyY2JHyaO.png" title="level2_FR" />
-      <resource url="story_content/external_files/level3_FR.html" image="story_content/5mvH6LX5q1q.png" title="level3_FR" />
+      <resource url="story_content/external_files/Nav_Canada.svg" image="story_content/5uNYQYbsWkM.png" title="Nav_Canada" />
+      <resource url="story_content/external_files/minimal_FR.html" image="story_content/5nPHbdixHYY.png" title="minimal_FR" />
+      <resource url="story_content/external_files/level1_FR.html" image="story_content/5vhupwZrA1P.png" title="level1_FR" />
+      <resource url="story_content/external_files/level2_FR.html" image="story_content/5Vs7mBf6QzK.png" title="level2_FR" />
+      <resource url="story_content/external_files/level3_FR.html" image="story_content/5uuXGHSxTjd.png" title="level3_FR" />
     </resources>
   </resource_data>
   <transcript_data />
