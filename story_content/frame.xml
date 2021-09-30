@@ -1571,7 +1571,7 @@
         <slidelink slideid="_player.6VacOa0CEBX" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6VacOa0CEBX.6NS8WseNMUy" displaytext="Page titre" expand="false" type="slide" />
-            <slidelink slideid="_player.6VacOa0CEBX.5sZptrPTleB" displaytext="Alerte" expand="false" type="slide" />
+            <slidelink slideid="_player.6VacOa0CEBX.6VFeiR3RhWU" displaytext="Alerte" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.6OXw9VbWEwC" displaytext="Question 1" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.63ibrc3r2TY" displaytext="Question 2" expand="false" type="slide" />
             <slidelink slideid="_player.6VacOa0CEBX.63D2AH1C1nl" displaytext="Question 3" expand="false" type="slide" />
@@ -1598,11 +1598,11 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Nav_Canada.svg" image="story_content/5uNYQYbsWkM.png" title="Nav_Canada" />
-      <resource url="story_content/external_files/minimal_FR.html" image="story_content/5nPHbdixHYY.png" title="minimal_FR" />
-      <resource url="story_content/external_files/level1_FR.html" image="story_content/5vhupwZrA1P.png" title="level1_FR" />
-      <resource url="story_content/external_files/level2_FR.html" image="story_content/5Vs7mBf6QzK.png" title="level2_FR" />
-      <resource url="story_content/external_files/level3_FR.html" image="story_content/5uuXGHSxTjd.png" title="level3_FR" />
+      <resource url="story_content/external_files/Nav_Canada.svg" image="story_content/5olTz4U6mES.png" title="Nav_Canada" />
+      <resource url="story_content/external_files/minimal_FR.html" image="story_content/5ggFY3ZnDFD.png" title="minimal_FR" />
+      <resource url="story_content/external_files/level1_FR.html" image="story_content/5gMaVUWKcAo.png" title="level1_FR" />
+      <resource url="story_content/external_files/level2_FR.html" image="story_content/6Tnx2lfPA7z.png" title="level2_FR" />
+      <resource url="story_content/external_files/level3_FR.html" image="story_content/5r6FDNlJGpF.png" title="level3_FR" />
     </resources>
   </resource_data>
   <transcript_data />
